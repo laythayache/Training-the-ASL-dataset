@@ -16,7 +16,7 @@ hands = mp_hands.Hands(
 )
 
 # Configuration
-DATA_DIR = r"C:\Users\Layth\Desktop\layth stuff\shared_dataset\American Sign Language\dataset"
+DATA_DIR = "dataset"
 IMG_SIZE = (224, 224)
 LANDMARK_SIZE = 63  # 21 landmarks * 3 (x, y, visibility)
 LABELS = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ") + ["del", "nothing", "space"]
