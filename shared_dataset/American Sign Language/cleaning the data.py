@@ -1,3 +1,5 @@
+#this file is optional and not necessary for the model to work
+
 import os
 import torch
 from torchvision import transforms
